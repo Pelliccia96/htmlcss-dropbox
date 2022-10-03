@@ -13,8 +13,13 @@ button {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
+
+.large-container i {
+    font-size: 3rem;
+    padding-top: 3rem;
+} 
 
 .large-container img {
     display: block;
@@ -72,4 +77,19 @@ header .jumbotron-background {
 
 .main-title {
     display: flex;
+    padding-top: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.row-left {
+    width: 30%;
+}
+
+.row-right {
+    width: 70%;
+    margin-bottom: -5rem;
+}
+
+.large-container .main-title button,i {
+    margin: 1.5rem 0;
 }
