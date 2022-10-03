@@ -110,6 +110,10 @@ header .jumbotron-background {
     margin: 1.5rem 0;
 }
 
+#i-fix1,#i-fix2,#i-fix3,#i-fix4 {
+    margin: 0.7rem;
+}
+
 .mid-container {
     max-width: 920px;
     margin: auto;
@@ -118,6 +122,15 @@ header .jumbotron-background {
 
 section span {
     padding-right: 3rem;
+}
+
+.card-body li {
+    display: flex;
+    align-items: baseline;
+}
+
+.card-body li i {
+    padding-right: 0.5rem;
 }
 
 section .card-container {
@@ -220,7 +233,7 @@ main .mid-box .midbox-img {
 
 main .mid-box .midbox-txt {
     width: 40%;
-    padding: 2rem 0 0 2rem;
+    padding: 2rem 0 0 3rem;
 }
 
 main .mid-box .midbox-txt p {
