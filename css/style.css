@@ -4,6 +4,27 @@
     margin: 0;
 }
 
+button {
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.large-container img {
+    display: block;
+    width: 100%;
+}
+
+header button {
+    background-color: #0061FF;
+}
+
 header a {
     text-decoration: none;
     color: black;
@@ -11,17 +32,21 @@ header a {
     font-size: 1.2rem;
 }
 
+header .nav-left img {
+    padding-right: 1.5rem;
+}
+
 header .nav-bar {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 10;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 header .nav-container {
     display: flex;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     justify-content: space-between;
 }
 
@@ -32,4 +57,19 @@ header .nav-container {
 
 .nav-container .nav-right {
     padding-right: 1.5rem;
+}
+
+header .jumbotron-background {
+    background-color: #B4D0E7;
+    margin-top: 87px;
+}
+
+.large-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.main-title {
+    display: flex;
 }
