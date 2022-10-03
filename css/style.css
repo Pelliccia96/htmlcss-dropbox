@@ -112,10 +112,51 @@ section span {
 
 section .card-container {
     display: flex;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+section .card {
+    border: 1px solid lightgray;
+    width: 30%;
+}
+
+section .card-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.card .card-title {
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .hr-rule {
     width: 50px;
     border-bottom: 1px solid lightgray;
     margin: 2rem 0;
+}
+
+ul.bold li:first-child {
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+ul.bold i {
+    font-size: large;
+    padding-right: 0.5rem;
+    color: #0061FF;
+}
+
+.card-body .txt-bold {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.card-body .padding-fix {
+    padding-top: 1rem;
+}
+
+.card .card-body {
+    padding: 1rem;
 }
