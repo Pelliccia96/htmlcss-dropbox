@@ -23,6 +23,11 @@ h2 {
     padding-bottom: 2.5rem;
 }
 
+h3 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
 ul {
     list-style: none;
 }
@@ -33,6 +38,11 @@ ul {
 } 
 
 .large-container img {
+    display: block;
+    width: 100%;
+}
+
+.mid-container img {
     display: block;
     width: 100%;
 }
@@ -196,4 +206,28 @@ ul.bold i {
 
 .bottom-card-container .padding-fix {
     padding: 3rem 0 0.5rem 0;
+}
+
+main .mid-box {
+    display: flex;
+}
+
+main .mid-box .midbox-img {
+    width: 60%;
+}
+
+main .mid-box .midbox-txt {
+    width: 40%;
+    padding: 2rem 0 0 2rem;
+}
+
+main .mid-box .midbox-txt p {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+main .mid-box .midbox-txt button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
