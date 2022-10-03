@@ -45,7 +45,7 @@ header a {
 }
 
 header .nav-left img {
-    padding-right: 1.5rem;
+    padding: 0 1.5rem;
 }
 
 header .nav-bar {
