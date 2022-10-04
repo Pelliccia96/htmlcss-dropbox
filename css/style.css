@@ -123,6 +123,10 @@ header .jumbotron-background {
     margin: 0.7rem;
 }
 
+#img-black {
+    filter: invert(0);
+}
+
 .mid-container {
     max-width: 920px;
     margin: auto;
@@ -297,10 +301,64 @@ section .row-container .row {
 
 section .row-container .row .column {
     width: 33.3%;
-    padding-bottom: 10rem;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-section .row-container .row .column.mid {
+section .row-container .row .img-banner {
+    display: flex;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+}
+
+section .row-container .row img {
+    width: 50%;
+    filter: invert(1);
+}
+
+section .row-container .row .column-mid {
+    width: 33.3%;
+    aspect-ratio: 1 / 1;
+    padding: 3rem;
+}
+
+section .row-container .row .green {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+section .row-container .row .darkred {
+    background-color: #61082B;
+}
+
+section .row-container .row .lightblue {
+    background-color: #0093CE;
+}
+
+section .row-container .row .lightred {
+    background-color: #FF1C1C;
+}
+
+section .row-container .row .red {
+    background-color: #D5001F;
+}
+
+section .row-container .row .lblue {
+    background-color: #B4D0E7;
+}
+
+section .row-container .row .blue {
+    background-color: #0D2481;
+}
+
+section .row-container .row .yellow {
+    background-color: #FFD830;
+}
+
+section .row-container .row .column-mid {
     background-color: #F5F5F5;
 }
 
@@ -310,7 +368,7 @@ section .hr-footer {
     margin: 3rem 0;
 }
 
-section .column.mid .txt-space {
+section .column-mid .txt-space {
     padding-top: 2.5rem;
 }
 
