@@ -360,4 +360,37 @@ section .mid-container .faq-container:last-child {
 
 footer .footer-background {
     background-color: black;
+    color: white;
+}
+
+footer .footer-background .footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-row a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-row li {
+    padding: 0.5rem 0;
+}
+
+footer .hr-footer {
+    width: 150px;
+    border-bottom: 1px solid white;
+    padding: 2rem 0;
+}
+
+footer .language .lng-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+footer .language .lng-container i {
+    font-size: 1rem;
+    padding: 0.5rem;
 }
