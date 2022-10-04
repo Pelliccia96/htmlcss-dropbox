@@ -1,7 +1,16 @@
+:root {
+    --color-primary: #0061FF;
+    --color-secondary: #B4D0E7;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
@@ -10,7 +19,7 @@ button {
     color: white;
     cursor: pointer;
     font-size: 1.1rem;
-    background-color: #0061FF;
+    background-color: var(--color-primary);
 }
 
 h1 {
@@ -32,6 +41,11 @@ ul {
     list-style: none;
 }
 
+header .nav-bar ul {
+    display: flex;
+    align-items: center;
+}
+
 .large-container i {
     font-size: 3rem;
     padding-top: 3rem;
@@ -50,12 +64,8 @@ ul {
 header a {
     text-decoration: none;
     color: black;
-    padding: 0 1rem;
+    padding: 1.5rem 1.5rem;
     font-size: 1.2rem;
-}
-
-header .nav-left img {
-    padding: 0 1.5rem;
 }
 
 header .nav-bar {
@@ -82,7 +92,7 @@ header .nav-container {
 }
 
 header .jumbotron-background {
-    background-color: #B4D0E7;
+    background-color: var(--color-secondary);
     margin-top: 87px;
 }
 
@@ -264,9 +274,13 @@ main .bot-box {
 }
 
 main .bot-box .botbox-txt {
-    width: 70%;
+    width: 80%;
 }
 
 main .bot-box .botbox-space {
-    width: 30%;
+    width: 20%;
+}
+
+main .mid-container a {
+    color: var(--color-primary);
 }
