@@ -46,6 +46,10 @@ ul {
     list-style: none;
 }
 
+header .nav-bar .logo img {
+    padding-left: 1rem;
+}
+
 header .nav-bar ul {
     display: flex;
     align-items: center;
@@ -73,8 +77,8 @@ header .nav-bar {
 
 header .nav-container {
     display: flex;
-    padding: 1.5rem 0;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-container .nav-left {
@@ -281,6 +285,10 @@ main .bot-box .botbox-space {
 
 main .mid-container a {
     color: var(--color-primary);
+}
+
+main .card-body .padding-fix ul {
+    padding-bottom: 1.5rem;
 }
 
 section .row-container .row {
