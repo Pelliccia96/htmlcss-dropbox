@@ -22,6 +22,11 @@ button {
     background-color: var(--color-primary);
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 h1 {
     font-size: 5rem;
     padding-bottom: 2.5rem;
@@ -50,16 +55,6 @@ header .nav-bar ul {
     font-size: 3rem;
     padding-top: 3rem;
 } 
-
-.large-container img {
-    display: block;
-    width: 100%;
-}
-
-.mid-container img {
-    display: block;
-    width: 100%;
-}
 
 header a {
     text-decoration: none;
@@ -283,4 +278,27 @@ main .bot-box .botbox-space {
 
 main .mid-container a {
     color: var(--color-primary);
+}
+
+section .row-container .row {
+    display: flex;
+}
+
+section .row-container .row .column {
+    width: 33.3%;
+    padding-bottom: 10rem;
+}
+
+section .row-container .row .column.mid {
+    background-color: #F5F5F5;
+}
+
+section .hr-footer {
+    width: 100px;
+    border-bottom: 1px solid lightgray;
+    margin: 3rem 0;
+}
+
+section .column.mid .txt-space {
+    padding-top: 2.5rem;
 }
