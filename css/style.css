@@ -56,11 +56,20 @@ header .nav-bar ul {
 }
 
 .large-container i {
-    font-size: 3rem;
-    padding-top: 3rem;
+    font-size: 3.2rem;
+    padding-top: 1.5rem;
 } 
 
-header a {
+header .jumbotron-background a {
+    text-decoration: none;
+    color: black;
+}
+
+header .jumbotron-background a:hover {
+    color: var(--color-primary);
+}
+
+header nav a {
     text-decoration: none;
     color: black;
     padding: 1.5rem 1.5rem;
