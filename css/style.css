@@ -420,9 +420,52 @@ section .mid-container .faq-container {
     padding: 1rem 0;
 }
 
-section .mid-container .faq-container:last-child {
+.fa-chevron-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.chev-down {
+    position: relative;
+}
+
+section .mid-container .faq-container i {
+    padding-right: 1rem;
+}
+
+section .mid-container .faq-container .pd-lx {
+    padding-left: 1rem;
+}
+
+section .mid-container .faq-container-act:last-child {
     border-bottom: 1px solid grey;
     margin-bottom: 3rem;
+}
+
+section .mid-container .faq-container:hover {
+    background-color: var(--color-secondary);
+}
+
+section .mid-container .p-active {
+    display: none;
+}
+
+.faq-container-act:active .p-active {
+    display: block;
+    padding: 1rem;
+}
+
+.faq-container-act:active .fa-chevron-up {
+    opacity: 1;
+    background-color: var(--color-secondary);
+}
+
+.p-active a {
+    display: inline-block;
+    padding-top: 1.5rem;
 }
 
 footer .footer-background {
