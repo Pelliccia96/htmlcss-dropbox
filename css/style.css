@@ -323,6 +323,7 @@ section .row-container .row .column-mid {
     width: 33.3%;
     aspect-ratio: 1 / 1;
     padding: 3rem;
+    overflow: auto;
 }
 
 section .row-container .row .green {
